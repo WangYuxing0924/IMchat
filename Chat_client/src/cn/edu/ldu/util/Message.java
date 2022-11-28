@@ -4,10 +4,7 @@ import java.io.Serializable;
 import java.net.InetAddress;
 import java.util.ArrayList;
 
-/**
- * Message，消息类，定义会话消息结构，规定会话协议。
- * @author 董相志，版权所有2016--2018，upsunny2008@163.com
- */
+
 public class Message implements Serializable {
     private String userId=null; //用户id
     private String password=null; //密码
