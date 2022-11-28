@@ -8,12 +8,7 @@ import javax.crypto.KeyGenerator;
 import javax.crypto.SecretKey;
 import javax.xml.bind.DatatypeConverter;
 
-/**
- * Cryptography类，用于实现一些通用的加密解密算法。包括如下功能函数
- * getHash，对字符串明文计算摘要，主要用于密码加密传输和将密码以摘要形式保存于数据库
- * generateNewKey，生成AES对称密钥
- * @author 董相志，版权所有2016--2018，upsunny2008@163.com
- */
+
 public class Cryptography {
     private static final int BUFSIZE=8192;  //缓冲区大小
 
