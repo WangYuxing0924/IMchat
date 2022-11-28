@@ -6,10 +6,7 @@ import java.io.IOException;
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 
-/**
- * Translate，对象的序列化和反序列化
- * @author 董相志，版权所有2016--2018，upsunny2008@163.com
- */
+
 public class Translate {
     /**
      * 对象转化为字节数组形式，实现对象序列化
